@@ -10,7 +10,7 @@ paginate = 5
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
   # Show reading time in minutes for posts
   showReadingTime = false
 
@@ -39,6 +39,10 @@ paginate = 5
     # alt = "Your example logo alt text"
 
     [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "git"
+        name = "Git"
+        url = "https://github.com/cnaude/aard.site"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
